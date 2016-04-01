@@ -1,0 +1,52 @@
+{
+  "name": "well-server-with-parse-graphql",
+  "version": "0.1.0",
+  "description": "This is the first self hosted version of the Well Server. Currently relies heavily on Parse API. Transitioning to GraphQL API",
+  "main": "index.js",
+  "keywords": [
+    "Well"
+  ],
+  "author": "Well Development Team",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wellhealthinc/WELL-Server"
+  },
+  "bugs": {
+    "url": "https://github.com/wellhealthinc/WELL-Server/issues"
+  },
+  "homepage": "https://github.com/wellhealthinc/WELL-Server#readme",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "cron": "^1.1.0",
+    "express": "~4.2.x",
+    "express-graphql": "^0.4.10",
+    "graphql": "^0.4.18",
+    "kerberos": "~0.0.x",
+    "kue": "^0.10.5",
+    "lodash": "^4.6.1",
+    "mongoose": "^4.4.7",
+    "parse": "^1.8.1",
+    "parse-server": "^2.2.4",
+    "prompt": "^0.2.14",
+    "pubnub": "^3.7.14",
+    "sendgrid": "^2.0.0",
+    "twilio": "^2.5.2",
+    "typescript": "^1.8.9"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "expect": "^1.12.2",
+    "chai-as-promised": "^5.2.0",
+    "gulp": "^3.9.1",
+    "mocha": "^2.4.5",
+    "gulp-mocha": "^2.2.0",
+    "gulp-typescript": "^2.12.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=4.4"
+  }
+}
